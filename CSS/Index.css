@@ -11,6 +11,10 @@ body{
 }
 .Descripcion, .DesTablas, .TituloTabla{
     color: brown;
+    font-weight:bold;
+}
+.TablaTitulo{
+    color: navy;
 }
 .ImgTablas img{
     border-radius: 5%;
