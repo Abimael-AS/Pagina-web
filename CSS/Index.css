@@ -13,6 +13,10 @@ body{
     color: brown;
     font-weight:bold;
 }
+#Tablas{
+    display:flex;
+    align-items: center;
+}
 .TablaTitulo{
     color: navy;
 }
