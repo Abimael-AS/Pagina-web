@@ -1,29 +1,48 @@
-body{
+body {
     background-color: black;
     text-align: center;
 }
-#Cabecera{
+
+#Cabecera {
     text-align: center;
     max-width: 1000px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: auto;
+    margin-right: auto;
     color: navy;
 }
-.Descripcion, .DesTablas, .TituloTabla{
+
+.Descripcion, .DesTablas, .TituloTabla {
     color: brown;
-    font-weight:bold;
+    font-weight: bold;
 }
-#Tablas{
-    display:flex;
+
+#Tablas {
+    display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.TablaTitulo{
+
+.TablaTitulo {
     color: navy;
 }
-.ImgTablas img{
+
+.ImgTablas img {
     border-radius: 5%;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
     opacity: 25%;
 }
-.ImgTablas img:hover{
-    opacity: 100%;
+
+/* Media queries para ajustar el diseño en diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+    #Cabecera {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .ImgTablas img {
+        max-width: 100%;
+    }
 }
