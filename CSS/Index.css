@@ -11,7 +11,7 @@ body {
     color: navy;
 }
 
-.Descripcion, .DesTablas, .TituloTabla {
+.Descripcion, .DesTablas, .TituloTabla, .Formulario {
     color: brown;
     font-weight: bold;
 }
