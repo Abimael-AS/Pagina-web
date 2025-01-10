@@ -35,6 +35,10 @@ body {
     opacity: 25%;
 }
 
+.ImgTablas img:hover {
+    opacity: 100%;
+}
+
 /* Media queries para ajustar el diseño en diferentes tamaños de pantalla */
 @media (max-width: 768px) {
     #Cabecera {
