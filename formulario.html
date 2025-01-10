@@ -11,7 +11,7 @@
             <h1>Formulario de Contacto</h1>
         </header>
         <main>
-            <form action="submit_form.php" method="post">
+            <form action="submit_form.php" method="post" autocomplete="off">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required><br><br>
                 
@@ -20,6 +20,7 @@
                 
                 <label for="pagina">Página que más te ha gustado:</label>
                 <select id="pagina" name="pagina" required>
+                    <option value=""disabled selected>-- Elige una opción --</option>
                     <option value="accion">Acción</option>
                     <option value="terror">Terror</option>
                     <option value="estrategia">Estrategia</option>
