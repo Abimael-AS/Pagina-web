@@ -109,6 +109,7 @@ body {
     }
 
     .Genero img {
-        max-width: 600px; /* Aumentar el tamaño máximo de las imágenes */
+        width: 100%; /* Aumentar el tamaño de las imágenes */
+        max-width: 600px; /* Ajustar el tamaño máximo de las imágenes */
     }
 }
