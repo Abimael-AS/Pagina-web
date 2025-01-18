@@ -39,6 +39,30 @@ body {
     opacity: 100%;
 }
 
+.Genero h3 {
+    color: brown; /* Cambiar el color del texto a marrón */
+}
+
+.Generos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Genero {
+    text-align: center;
+    margin: 10px;
+}
+
+.Genero img {
+    opacity: 25%;
+    transition: opacity 0.3s;   
+}
+
+.Genero img:hover {
+    opacity: 100%;
+}
+
 /* Media queries para ajustar el diseño en diferentes tamaños de pantalla */
 @media (max-width: 768px) {
     #Cabecera {
@@ -46,7 +70,27 @@ body {
         margin-right: 20px;
     }
 
-    .ImgTablas img {
+    .Generos {
+        flex-direction: column;
+    }
+
+    .Genero img {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .Generos {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .Genero {
+        flex: 1 1 45%;
+        margin: 10px;
+    }
+
+    .Genero img {
         max-width: 100%;
     }
 }
