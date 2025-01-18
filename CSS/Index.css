@@ -107,4 +107,8 @@ body {
     input[type="submit"] {
         padding: 15px 30px;
     }
+
+    .Genero img {
+        max-width: 600px; /* Aumentar el tamaño máximo de las imágenes */
+    }
 }
